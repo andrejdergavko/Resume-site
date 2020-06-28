@@ -1,0 +1,28 @@
+@import "../../style/variables.sass";
+
+.increasingBtn {
+  position: relative;
+  padding: 0 0 10px 0;
+  margin-top: 40px;
+  border: none;
+  background-color: transparent;
+  color: $second-color;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.increasingBtn::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: $second-color;
+  transition: .3s;
+}
+
+.increasingBtn:hover::before {
+  width: 100%;
+}
