@@ -1,0 +1,20 @@
+.nav {
+  text-align: center;
+}
+
+.nav__list {
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 13px;
+}
+
+.nav__item {
+  margin: 0 15px;
+}
+
+.nav__link {
+  text-transform: uppercase;
+  font-weight: 700;
+}
