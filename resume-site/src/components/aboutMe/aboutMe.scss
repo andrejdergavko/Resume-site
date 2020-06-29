@@ -1,0 +1,26 @@
+.aboutMe {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-areas:
+    "info contacts-card"
+}
+
+.aboutMe__info {
+  grid-area: info;
+  margin-right: 65px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.aboutMe__socialLinks {
+  margin: 30px 0 40px 0;
+}
+
+.aboutMe__contacts-card {
+  grid-area: contacts-card;
+}
+
+.aboutMe__title {
+  text-align: center;
+}
