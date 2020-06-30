@@ -1,0 +1,23 @@
+@import "../../style/variables.sass";
+
+.education__item-box {
+  margin: 0 15px;
+}
+
+.education__title {
+  font-weight: 500;
+  color: $second-color;
+  margin: -10px 0px 7px;
+}
+
+.education__sup-title {
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.education__description {
+  margin: 0;
+  color: $font-color-gray;
+  font-weight: 100;
+  font-size: 14px;
+}
