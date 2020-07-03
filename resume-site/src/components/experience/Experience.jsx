@@ -13,7 +13,7 @@ import "./experience.scss";
 
 const Experience = () => {
   return (
-    <Section number="04" title="Experience" gray={false}>
+    <Section id="experience" number="04" title="Experience" gray={false}>
       <Timeline align="alternate">
         <TimelineItem>
           <TimelineSeparator>

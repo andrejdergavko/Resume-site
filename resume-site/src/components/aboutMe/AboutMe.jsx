@@ -9,7 +9,7 @@ import "./aboutMe.scss";
 
 const AboutMe = () => {
   return (
-    <Section number="01" title="About Me" gray={true}>
+    <Section id='aboutMe' number="01" title="About Me" gray={true}>
       <div className="aboutMe">
         <div className="aboutMe__info">
           <p className="aboutMe__text">

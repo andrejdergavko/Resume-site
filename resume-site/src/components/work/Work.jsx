@@ -12,8 +12,7 @@ import "./Work.scss";
 const data = [
   {
     title: "Medical center website",
-    text:
-      "The project is a multi-page website",
+    text: "The project is a multi-page website",
     supText: "Technology: Html, CSS, Less, Grid, Flex-box",
     imgUrl: projectImg1,
   },
@@ -28,14 +27,15 @@ const data = [
     title: "Money Manager",
     text:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est numquam cumque, aliquid aspernatur debitis inventore assumenda. Laudantium, deleniti",
-    supText: "Technology: React.js, Redux, Redux-thunk, Hooks, React-router, AJAX, Fetch API ",
+    supText:
+      "Technology: React.js, Redux, Redux-thunk, Hooks, React-router, AJAX, Fetch API ",
     imgUrl: projectImg2,
   },
 ];
 
 const Work = () => {
   return (
-    <Section number="05" title="Portfolio" gray={true}>
+    <Section id="portfolio" number="05" title="Portfolio" gray={true}>
       <div className="work">
         {data.map((item) => {
           return <PortfolioItem data={item} />;

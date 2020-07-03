@@ -10,7 +10,9 @@ const Preview = () => {
         <div>
           <h1 className="preview__name">Andrei Dergavko</h1>
           <h3 className="preview__position">Junior Frontend developer</h3>
-          <IncreasingBtn title='About Me'/>
+          <a href="#aboutMe">
+            <IncreasingBtn title="About Me" />
+          </a>
         </div>
         <img
           className="preview__foto"

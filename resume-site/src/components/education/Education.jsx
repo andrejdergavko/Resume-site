@@ -13,7 +13,7 @@ import "./education.scss";
 
 const Education = () => {
   return (
-    <Section number="02" title="Education" gray={false}>
+    <Section id="education" number="02" title="Education" gray={false}>
       <Timeline align="alternate">
         <TimelineItem>
           <TimelineSeparator>

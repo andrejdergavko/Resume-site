@@ -7,7 +7,7 @@ import "./contact.scss";
 
 const Contact = () => {
   return (
-    <Section number="06" title="Contact" gray={false}>
+    <Section id="contact" number="06" title="Contact" gray={false}>
       <div className="contact">
         <div className="contact__phone">+375 (33) 3214403</div>
         <div className="contact__email">andrejdergavko@gmail.com</div>

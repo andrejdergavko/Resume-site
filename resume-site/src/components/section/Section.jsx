@@ -1,9 +1,9 @@
 import React from "react";
 import "./section.scss";
 
-const Section = ({ title, number, gray, children }) => {
+const Section = ({ title, number, gray, children, id }) => {
   return (
-    <section className={`section ${gray ? "section_gray" : ""}`}>
+    <section id={id} className={`section ${gray ? "section_gray" : ""}`}>
       <div className="wrapper">
         <div className="section__header">
           <div className="section__number">{number}.</div>

@@ -7,7 +7,7 @@ import "./skills.scss";
 
 const Skills = () => {
   return (
-    <Section number="03" title="Skills" gray={true}>
+    <Section id="skills" number="03" title="Skills" gray={true}>
       <div className="skills__wrapper">
         <div className="skills__column">
           <ProgressBar title="Html" value="90" />
