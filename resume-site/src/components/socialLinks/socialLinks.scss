@@ -2,12 +2,13 @@
 
 .socialLinks {
   padding: 0;
+  margin: 0 -10px;
   list-style: none;
 }
 
 .socialLinks__item {
   display: inline-block;
-  margin-right: 20px;
+  margin: 0 10px;
 }
 
 .socialLinks__item:hover path {

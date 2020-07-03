@@ -6,6 +6,7 @@ import Education from "./components/education/Education";
 import Skills from "./components/skills/Skills";
 import Experience from "./components/experience/Experience";
 import Work from "./components/work/Work";
+import Contact from "./components/contact/Contact";
 
 import "./style/common.scss";
 
@@ -19,6 +20,7 @@ function App() {
       <Skills />
       <Experience />
       <Work />
+      <Contact />
     </div>
   );
 }
