@@ -1,0 +1,40 @@
+@import "../../style//variables.sass";
+
+.defaultBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  padding: 7px;
+  margin: 5px;
+  border: 1px solid transparent;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 14px;
+  color: $second-color;
+  cursor: pointer;
+  transition: .15s;
+}
+
+.defaultBtn:hover {
+  border: 1px solid $second-color;
+  background-color: #fff;
+  color:  $second-color;
+}
+
+.defaultBtn:hover path {
+  fill:  $second-color;
+}
+
+.defaultBtn path {
+  fill: $second-color;
+}
+
+.defaultBtn_fill {
+  background-color: $second-color;
+  color: #fff;
+}
+
+.defaultBtn_fill path {
+  fill: #fff;
+}
