@@ -22,16 +22,15 @@ const Experience = () => {
           </TimelineSeparator>
           <TimelineContent>
             <div className="education__item-box">
-              <h2 className="education__title">Software Engineering</h2>
+              <h2 className="education__title">
+                Educational Center (it-academy) of HTP{" "}
+              </h2>
               <h4 className="education__sup-title">
-                Oxford University / 2000 - 2005
+                Project role: Front-end Developer / 01.20 - 03.20
               </h4>
               <p className="education__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in{" "}
+                Finel project of the React.JS cours on the topic of a money
+                Manager
               </p>
             </div>
           </TimelineContent>
@@ -43,37 +42,15 @@ const Experience = () => {
           </TimelineSeparator>
           <TimelineContent>
             <div className="education__item-box">
-              <h2 className="education__title">Software Engineering</h2>
+              <h2 className="education__title">
+                Educational Center (it-academy) of HTP{" "}
+              </h2>
               <h4 className="education__sup-title">
-                Oxford University / 2000 - 2005
+                Project role: Front-end Developer / 09.19 - 12.19
               </h4>
               <p className="education__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in{" "}
-              </p>
-            </div>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot variant="outlined" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
-            <div className="education__item-box">
-              <h2 className="education__title">Software Engineering</h2>
-              <h4 className="education__sup-title">
-                Oxford University / 2000 - 2005
-              </h4>
-              <p className="education__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in{" "}
+                Finel project of the JS cours on the topic of a body weight
+                diary
               </p>
             </div>
           </TimelineContent>
@@ -84,16 +61,15 @@ const Experience = () => {
           </TimelineSeparator>
           <TimelineContent>
             <div className="education__item-box">
-              <h2 className="education__title">Software Engineering</h2>
+              <h2 className="education__title">
+                Educational Center (it-academy) of HTP{" "}
+              </h2>
               <h4 className="education__sup-title">
-                Oxford University / 2000 - 2005
+                Project role: Front-end Developer / 04.19 - 07.19
               </h4>
               <p className="education__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in{" "}
+                Finel project of the HTML / CSS cours on the topic of a medical
+                center website
               </p>
             </div>
           </TimelineContent>
