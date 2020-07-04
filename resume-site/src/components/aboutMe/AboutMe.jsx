@@ -9,7 +9,7 @@ import "./aboutMe.scss";
 
 const AboutMe = () => {
   return (
-    <Section id='aboutMe' number="01" title="About Me" gray={true}>
+    <Section id="aboutMe" number="01" title="About Me" gray={true}>
       <div className="aboutMe">
         <div className="aboutMe__info">
           <p className="aboutMe__text">
@@ -21,7 +21,9 @@ const AboutMe = () => {
           <div className="aboutMe__socialLinks">
             <SocialLinks size="20" />
           </div>
-          <IncreasingBtn title="Download resume" />
+          <a href='#' download="summary Andrei Dergavko">
+            <IncreasingBtn title="Download resume" />
+          </a>
         </div>
         <div className="aboutMe__contacts-card">
           <ContactsCard />

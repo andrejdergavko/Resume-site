@@ -10,14 +10,14 @@ const Skills = () => {
     <Section id="skills" number="03" title="Skills" gray={true}>
       <div className="skills__wrapper">
         <div className="skills__column">
-          <ProgressBar title="Html" value="90" />
-          <ProgressBar title="Html" value="90" />
-          <ProgressBar title="Html" value="90" />
+          <ProgressBar title="JavaScript" value="90" />
+          <ProgressBar title="React.js" value="75" />
+          <ProgressBar title="HTML / CSS" value="95" />
         </div>
         <div className="skills__column">
-          <ProgressBar title="Html" value="90" />
-          <ProgressBar title="Html" value="90" />
-          <ProgressBar title="Html" value="90" />
+          <ProgressBar title="Redux" value="75" />
+          <ProgressBar title="Jest / Enzyme" value="50" />
+          <ProgressBar title="GraphQL" value="50" />
         </div>
       </div>
     </Section>

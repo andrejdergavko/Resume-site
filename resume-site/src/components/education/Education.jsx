@@ -22,17 +22,13 @@ const Education = () => {
           </TimelineSeparator>
           <TimelineContent>
             <div className="education__item-box">
-              <h2 className="education__title">Software Engineering</h2>
+              <h2 className="education__title">
+                Web application development with React.JS
+              </h2>
               <h4 className="education__sup-title">
-                Oxford University / 2000 - 2005
+                Educational Center (it-academy) of HTP
               </h4>
-              <p className="education__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in{" "}
-              </p>
+              <p className="education__description">01.20 - 03.20</p>
             </div>
           </TimelineContent>
         </TimelineItem>
@@ -43,17 +39,13 @@ const Education = () => {
           </TimelineSeparator>
           <TimelineContent>
             <div className="education__item-box">
-              <h2 className="education__title">Software Engineering</h2>
+              <h2 className="education__title">
+                Web application development with JavaScript{" "}
+              </h2>
               <h4 className="education__sup-title">
-                Oxford University / 2000 - 2005
+                Educational Center (it-academy) of HTP
               </h4>
-              <p className="education__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in{" "}
-              </p>
+              <p className="education__description">09.19 - 12.19</p>
             </div>
           </TimelineContent>
         </TimelineItem>
@@ -64,17 +56,13 @@ const Education = () => {
           </TimelineSeparator>
           <TimelineContent>
             <div className="education__item-box">
-              <h2 className="education__title">Software Engineering</h2>
+              <h2 className="education__title">
+                Website development with HTML, CSS & JavaScript
+              </h2>
               <h4 className="education__sup-title">
-                Oxford University / 2000 - 2005
+                Educational Center (it-academy) of HTP
               </h4>
-              <p className="education__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in{" "}
-              </p>
+              <p className="education__description">04.19 - 07.19</p>
             </div>
           </TimelineContent>
         </TimelineItem>
@@ -84,17 +72,13 @@ const Education = () => {
           </TimelineSeparator>
           <TimelineContent>
             <div className="education__item-box">
-              <h2 className="education__title">Software Engineering</h2>
+              <h2 className="education__title">
+                Economics and enterprise management
+              </h2>
               <h4 className="education__sup-title">
-                Oxford University / 2000 - 2005
+                Yanka Kupala State University of Grodno
               </h4>
-              <p className="education__description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in{" "}
-              </p>
+              <p className="education__description">2013 - 2017</p>
             </div>
           </TimelineContent>
         </TimelineItem>
