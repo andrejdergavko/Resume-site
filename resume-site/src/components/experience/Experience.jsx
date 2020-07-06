@@ -6,6 +6,7 @@ import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
 import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
 import TimelineDot from "@material-ui/lab/TimelineDot";
+import ItAcademyJpg from "../../icons/ItAcademyJpg";
 
 import Section from "../section/Section";
 
@@ -17,7 +18,9 @@ const Experience = () => {
       <Timeline align="alternate">
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot variant="outlined" />
+            <div className="experience__icon">
+              <ItAcademyJpg size="40" />
+            </div>
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
@@ -29,7 +32,7 @@ const Experience = () => {
                 Project role: Front-end Developer / 01.20 - 03.20
               </h4>
               <p className="education__description">
-                Finel project of the React.JS cours on the topic of a money
+                Final project of the React.JS course on the topic of a money
                 Manager
               </p>
             </div>
@@ -37,7 +40,9 @@ const Experience = () => {
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot variant="outlined" />
+            <div className="experience__icon">
+              <ItAcademyJpg size="40" />
+            </div>
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
@@ -49,7 +54,7 @@ const Experience = () => {
                 Project role: Front-end Developer / 09.19 - 12.19
               </h4>
               <p className="education__description">
-                Finel project of the JS cours on the topic of a body weight
+                Final project of the JS course on the topic of a body weight
                 diary
               </p>
             </div>
@@ -57,7 +62,9 @@ const Experience = () => {
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot variant="outlined" />
+            <div className="experience__icon">
+              <ItAcademyJpg size="40" />
+            </div>
           </TimelineSeparator>
           <TimelineContent>
             <div className="education__item-box">
@@ -68,7 +75,7 @@ const Experience = () => {
                 Project role: Front-end Developer / 04.19 - 07.19
               </h4>
               <p className="education__description">
-                Finel project of the HTML / CSS cours on the topic of a medical
+                Final project of the HTML / CSS course on the topic of a medical
                 center website
               </p>
             </div>

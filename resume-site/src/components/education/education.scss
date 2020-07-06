@@ -1,7 +1,7 @@
 @import "../../style/variables.sass";
 
 .education__item-box {
-  margin: 0 15px;
+  margin: 20px 15px 20px 0;
 }
 
 .education__title {
@@ -22,4 +22,8 @@
   color: $font-color-gray;
   font-weight: 100;
   font-size: 14px;
+}
+
+.education__icon {
+  margin: 5px 0;
 }

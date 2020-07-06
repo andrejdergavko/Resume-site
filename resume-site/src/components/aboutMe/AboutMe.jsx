@@ -4,6 +4,7 @@ import Section from "../section/Section";
 import SocialLinks from "../socialLinks/SocialLinks";
 import IncreasingBtn from "../increasingBtn/IncreasingBtn";
 import ContactsCard from "./contactsCard/ContactsCard";
+import summary from "../../files/Andrei Dergavko summary.docx";
 
 import "./aboutMe.scss";
 
@@ -13,15 +14,14 @@ const AboutMe = () => {
       <div className="aboutMe">
         <div className="aboutMe__info">
           <p className="aboutMe__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium, consectetur culpa, cupiditate explicabo ipsum nobis
-            officia omnis pariatur quos rerum saepe sed. Aliquid culpa cum
-            distinctio obcaecati officiis quaerat quas.
+            I love programming and really want to work. Purposeful, can organize
+            myself, fast-learning, have technical mindset. My goal is the
+            fastest growth in this sphere. I like sports, love nature.
           </p>
           <div className="aboutMe__socialLinks">
             <SocialLinks size="20" />
           </div>
-          <a href='#' download="summary Andrei Dergavko">
+          <a href={summary} download>
             <IncreasingBtn title="Download resume" />
           </a>
         </div>

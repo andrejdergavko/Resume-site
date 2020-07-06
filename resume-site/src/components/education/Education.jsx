@@ -5,7 +5,8 @@ import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
 import TimelineConnector from "@material-ui/lab/TimelineConnector";
 import TimelineContent from "@material-ui/lab/TimelineContent";
-import TimelineDot from "@material-ui/lab/TimelineDot";
+import GrsuJpg from "../../icons/GrsuJpg";
+import ItAcademyJpg from "../../icons/ItAcademyJpg";
 
 import Section from "../section/Section";
 
@@ -17,7 +18,9 @@ const Education = () => {
       <Timeline align="alternate">
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot variant="outlined" />
+            <div className="education__icon">
+              <ItAcademyJpg size="40" />
+            </div>
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
@@ -34,7 +37,9 @@ const Education = () => {
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot variant="outlined" />
+            <div className="education__icon">
+              <ItAcademyJpg size="40" />
+            </div>
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
@@ -51,7 +56,9 @@ const Education = () => {
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot variant="outlined" />
+            <div className="education__icon">
+              <ItAcademyJpg size="40" />
+            </div>
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
@@ -68,7 +75,9 @@ const Education = () => {
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot variant="outlined" />
+            <div className="education__icon">
+              <GrsuJpg size="40" />
+            </div>
           </TimelineSeparator>
           <TimelineContent>
             <div className="education__item-box">

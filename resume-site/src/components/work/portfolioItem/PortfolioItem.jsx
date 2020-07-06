@@ -6,14 +6,16 @@ import EyeSwg from "../../../icons/EyeSwg";
 
 import "./portfolioItem.scss";
 
-const PortfolioItem = ({ data: { title, text, supText, imgUrl } }) => {
+const PortfolioItem = ({
+  data: { title, text, supText, imgUrl, gitHubUrl, projectUrl },
+}) => {
   return (
     <div className="portfolioItem__section">
-      <a href='#' className="portfolioItem__foto-box">
+      <a target="_blank" href={projectUrl} className="portfolioItem__foto-box">
         <img className="portfolioItem__foto" src={imgUrl} alt="project scren" />
         <div className="portfolioItem__foto-bg">
-          <EyeSwg size='60'/>
-          <div className='portfolioItem__foto-title'>See the project</div>
+          <EyeSwg size="60" />
+          <div className="portfolioItem__foto-title">See the project</div>
         </div>
       </a>
       <div className="portfolioItem__description">
@@ -24,18 +26,22 @@ const PortfolioItem = ({ data: { title, text, supText, imgUrl } }) => {
         </div>
 
         <div className="portfolioItem__btn-box">
-          <DefaultBtn fill={true}>
-            <div className="portfolioItem__btn-icon">
-              <EyeSwg />
-            </div>
-            See the project
-          </DefaultBtn>
-          <DefaultBtn>
-            <div className="portfolioItem__btn-icon">
-              <GitHubSwg />
-            </div>
-            Go to github
-          </DefaultBtn>
+          <a target="_blank" href={projectUrl}>
+            <DefaultBtn fill={true}>
+              <div className="portfolioItem__btn-icon">
+                <EyeSwg />
+              </div>
+              See the project
+            </DefaultBtn>
+          </a>
+          <a target="_blank" href={gitHubUrl}>
+            <DefaultBtn>
+              <div className="portfolioItem__btn-icon">
+                <GitHubSwg />
+              </div>
+              Go to github
+            </DefaultBtn>
+          </a>
         </div>
       </div>
     </div>
